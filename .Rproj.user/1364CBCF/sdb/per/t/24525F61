@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Lesson Plan\"\noutput: pdf_document\nAuthors: \"Soren A. Christensen, Rachel Lo, Brian Reed\"\n---\n\n## Introduction\n\n## Objectives\n\n## Example\n\n## Reading/Videos\n\n## Homeowrk Questions\n\n## References\n",
+    "created" : 1427831699755.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "135168018",
+    "id" : "24525F61",
+    "lastKnownWriteTime" : 1427832266,
+    "path" : "~/Spring 2015/Math 378/Lesson/LessonPlan.Rmd",
+    "project_path" : "LessonPlan.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

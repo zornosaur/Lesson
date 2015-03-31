@@ -1,0 +1,17 @@
+---
+title: "Lesson Plan"
+output: pdf_document
+Authors: "Soren A. Christensen, Rachel Lo, Brian Reed"
+---
+
+## Introduction
+
+## Objectives
+
+## Example
+
+## Reading/Videos
+
+## Homeowrk Questions
+
+## References
