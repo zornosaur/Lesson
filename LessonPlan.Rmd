@@ -6,12 +6,46 @@ Authors: "Soren A. Christensen, Rachel Lo, Brian Reed"
 
 ## Introduction
 
+Background
+
+Significance/applications in the real world
+
+Why spatial statistics are so different from what we're used to.
+
 ## Objectives
+
+Introduce this area of statistics to calss, give them exposure.
+
+Be familiar to applciations of the package.
+
+Talk briefly about other packages.
+
+Show how this is applicable to being an analyst in the air force.
 
 ## Example
 
+Deer data. ???
+
 ## Reading/Videos
 
-## Homeowrk Questions
+We could write something or make a video that students review before class
+
+http://www.nytimes.com/2015/01/09/business/international/mapping-the-worlds-problems.html
+
+http://cran.r-project.org/web/packages/adehabitat/adehabitat.pdf
+
+## Homework Questions
+
+Manipulating data with adehabitat
 
 ## References
+
+https://sites.google.com/site/rodriguezsanchezf/news/usingrasagis
+
+https://www.movebank.org/node/14620
+
+http://www.rdocumentation.org/packages/adehabitat
+
+http://core.ac.uk/download/pdf/26815643.pdf
+
+http://cran.r-project.org/web/packages/adehabitat/adehabitat.pdf
