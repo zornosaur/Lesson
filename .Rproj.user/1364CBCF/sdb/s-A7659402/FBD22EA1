@@ -1,0 +1,17 @@
+{
+    "contents" : "library(adehabitat)\nlibrary(ellipse)\n\ntrack = read.csv(\"DeerSample.csv\")\ntrack = na.omit(track)\n\nsummary(track)\nhead(track)\n\ncoordinates(track) = c(\"LONGITUDE\", \"LATITUDE\")\nclass(track)\n\nplot(track)\n\n?mcp\n\ndemo(homerange)\n",
+    "created" : 1429271981859.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1054522292",
+    "id" : "FBD22EA1",
+    "lastKnownWriteTime" : 1429288004,
+    "path" : "~/Spring 2015/Math 378/Lesson/Examples.R",
+    "project_path" : "Examples.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
