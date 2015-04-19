@@ -53,5 +53,3 @@ http://core.ac.uk/download/pdf/26815643.pdf
 http://cran.r-project.org/web/packages/adehabitat/adehabitat.pdf
 
 http://www.mikemeredith.net/blog/1212_Data_for_home_range_analysis_in_R.htm#1
-
-http://cran.r-project.org/web/packages/adehabitatHR/vignettes/adehabitatHR.pdf
