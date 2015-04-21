@@ -1,7 +1,4 @@
 library(adehabitatHR)
-library(adehabitatHS)
-library(adehabitatLT)
-library(adehabitatMA)
 
 library(dplyr)
 
@@ -13,26 +10,27 @@ track = filter(track, DATETIME >= 40603 & DATETIME <= 40633)
 summary(track)
 head(track)
 
-trackSP = SpatialPoints(data.frame(track$LONGITUDE, track$LATITUDE))
+trackSp = SpatialPoints(data.frame(track$LONGITUDE, track$LATITUDE))
 
-trackCLU = clusthr(trackSp)
+trackClu = clusthr(trackSp)
 
-plot(trackCLU)
+plot(trackClu)
 
-trackCP = mcp(trackSP, percent = 90)
-plot(trackCP)
-plot(trackSP, add = T)
+trackCp = mcp(trackSp, percent = 90)
+plot(trackCp)
+plot(trackSp, add = T)
 
-HRs = mcp.area(trackSP, percent = seq(50, 100, by = 5))
+HRs = mcp.area(trackSp, percent = seq(50, 100, by = 5))
 
 ---------------
   
-trackKUD = kernelUD(trackSP)
-image(trackKUD)
+trackKud = kernelUD(trackSp)
+image(trackKud)
 
-trackKudl = kernelUD(trackSP, h = "LSCV")
+trackKudl = kernelUD(trackSp, h = "LSCV")
 image(trackKudl)
 plotLSCV(trackKudl)
 
-trackHr = getverticeshr(trackKUD)
+trackHr = getverticeshr(trackKud)
 plot(trackHr,col = 3)
+plot(trackSp, add = T)
