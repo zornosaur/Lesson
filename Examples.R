@@ -20,7 +20,7 @@ trackCp = mcp(trackSp, percent = 90)
 plot(trackCp)
 plot(trackSp, add = T)
 
-HRs = mcp.area(trackSp, percent = seq(50, 100, by = 5))
+HRs = mcp.area(trackSp, percent = seq(50, 100, by = 10))
 
 ---------------
   
@@ -34,3 +34,11 @@ plotLSCV(trackKudl)
 trackHr = getverticeshr(trackKud)
 plot(trackHr,col = 3)
 plot(trackSp, add = T)
+
+
+---------------------
+  
+library(adehabitatLT)
+  
+trans = as.ltraj(xy = cbind(track$LONGITUDE, track$LATITUDE), date = as.POSIXct(track$DATETIME  *60 * 60 *24, origin="1899-12-30"), id = "Deer")
+plot(trans)
